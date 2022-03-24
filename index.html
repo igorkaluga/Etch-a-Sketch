@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
     </head>
 
     <body>
+        <h1>Etch-A-Sketch</h1>
+        <div id="main-container">
+            <!--create grid throughn javascript-->
+        </div>
 
+        <!-- <input id="color-picker" type="color" value="#333333" /> -->
+        <button id="clear-btn">Clear</button>
+        <p>Enter the grid dimension:</p>
+        <input type="number" min="0" max="100" id="grid-size-input">
     </body>
 </html>
 <script type="text/javascript" src="script.js"></script>
+
+<!--
+
+    A field to enter the grid size(limit 100)
+        -- user input field that takes in numbers below 100. Throw alert if above 100.
+    Color picker button.
+    Background color button.
+
+
+-->

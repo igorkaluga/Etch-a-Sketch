@@ -1,0 +1,12 @@
+#main-container {
+    background-color:white;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+/*fixed the bug of user selecting the squares
+ breaking the mousedown and mousehover events*/
+.grid-square-div {
+    user-select: none;
+}
